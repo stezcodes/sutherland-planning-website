@@ -214,6 +214,15 @@ summary:focus-visible {
   background: var(--color-primary-dark);
 }
 
+/* Mobile menu "Get in Touch" — teal instead of brass on the white mobile-nav panel. */
+.mobile-nav .btn--accent {
+  background: var(--color-primary);
+  color: #fff;
+}
+.mobile-nav .btn--accent:hover {
+  background: var(--color-primary-dark);
+}
+
 /* "Send Enquiry" contact form submit — white pill with teal text. */
 #contact-form .btn--accent {
   background: #fff;
