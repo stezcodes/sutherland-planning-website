@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 190" preserveAspectRatio="none">
+  <defs>
+    <path id="wave" d="M0,95 Q120,45 240,95 Q360,145 480,95 Q600,45 720,95 Q840,145 960,95 Q1080,45 1200,95 Q1320,145 1440,95" fill="none" stroke="#ffffff" stroke-width="3.6"/>
+  </defs>
+  <g opacity="0.6">
+    <use href="#wave" transform="translate(0,-36)"/>
+    <use href="#wave" transform="translate(0,-28)"/>
+    <use href="#wave" transform="translate(0,-20)"/>
+    <use href="#wave" transform="translate(0,-12)"/>
+    <use href="#wave" transform="translate(0,-4)"/>
+    <use href="#wave" transform="translate(0,4)"/>
+    <use href="#wave" transform="translate(0,12)"/>
+    <use href="#wave" transform="translate(0,20)"/>
+    <use href="#wave" transform="translate(0,28)"/>
+    <use href="#wave" transform="translate(0,36)"/>
+  </g>
+</svg>

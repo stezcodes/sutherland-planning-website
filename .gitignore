@@ -1,0 +1,22 @@
+# Raw stock footage (large, not used directly by the site)
+/*.mp4
+
+# Unused duplicate/leftover images at project root
+/Untitled design*.png
+/chris.jpeg
+/logo.png
+/logoo.png
+
+# Old hero video backups (only assets/video/hero.mp4 is used live)
+assets/video/*-backup.mp4
+assets/video/*-backup2.mp4
+assets/video/hero-lightweight.mp4
+
+# Claude Code local tooling/config (not part of the site)
+.claude/
+
+.DS_Store
+
+# Superseded/unused design iterations
+assets/img/services/*-old-backup.jpg
+assets/img/footer-pattern.svg
