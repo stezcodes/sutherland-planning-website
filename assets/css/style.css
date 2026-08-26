@@ -474,7 +474,14 @@ summary:focus-visible {
 
 @media (prefers-reduced-motion: reduce) {
   .hero__media { display: none; }
-  .hero { background: var(--color-primary-dark) url('../img/logo.png') center 120% / 260px no-repeat; }
+  .hero { background: var(--color-primary-dark) url('../img/hero-poster.jpg') center / cover no-repeat; }
+}
+
+/* Skip the autoplaying video on phones — heavy for mobile data/battery
+   and prone to being blocked or stalling; a static photo is more reliable. */
+@media (max-width: 767px) {
+  .hero__media { display: none; }
+  .hero { background: var(--color-primary-dark) url('../img/hero-poster.jpg') center / cover no-repeat; }
 }
 
 /* Page banner (inner pages) */
