@@ -451,6 +451,10 @@ summary:focus-visible {
   color: #fff;
   margin-bottom: var(--space-2);
   text-shadow: 0 2px 16px rgba(0,0,0,0.45), 0 1px 3px rgba(0,0,0,0.4);
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 .hero__content .lede {
   color: rgba(255,255,255,0.95);
