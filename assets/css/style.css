@@ -938,9 +938,10 @@ summary:focus-visible {
   grid-template-columns: 1fr;
 }
 @media (min-width: 768px) {
-  .footer-grid { grid-template-columns: 1.4fr 1fr 1fr 1.2fr; }
+  .footer-grid { grid-template-columns: 1fr 1fr 1.2fr; }
 }
-.footer-brand img { width: 100%; max-width: 300px; height: auto; display: block; margin-bottom: var(--space-3); border-radius: 3px; }
+.footer-brand { margin-bottom: var(--space-5); }
+.footer-brand img { width: 100%; max-width: 600px; height: auto; display: block; border-radius: 3px; }
 .footer-brand p { color: rgba(255,255,255,0.7); max-width: 32ch; }
 .site-footer h4 {
   color: #fff;
